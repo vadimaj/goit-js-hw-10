@@ -4,7 +4,7 @@ import { RestCountriesApi } from './fetchCountries';
 import './css/styles.css';
 const DEBOUNCE_DELAY = 300;
 
-refs = {
+const refs = {
   inputEl: document.querySelector('#search-box'),
   countryInfoEl: document.querySelector('.country-info'),
   countryListEl: document.querySelector('.country-list'),
